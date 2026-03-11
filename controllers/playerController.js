@@ -11,6 +11,7 @@ const { getAll, getById, createOne, updateOne, deleteOne } = createCrudHandlers(
     "date_of_birth",
     "nationality_id",
     "second_nationality_id",
+    "team_id",
     "height_cm",
     "weight_kg",
     "preferred_foot",

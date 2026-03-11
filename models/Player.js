@@ -8,6 +8,7 @@ const playerSchema = new mongoose.Schema(
     date_of_birth: { type: Date, required: true },
     nationality_id: { type: Number, required: true, index: true, min: 1 },
     second_nationality_id: { type: Number, default: null, index: true, min: 1 },
+    team_id: { type: Number, default: null, index: true, min: 1 },
     height_cm: { type: Number, default: null, min: 0 },
     weight_kg: { type: Number, default: null, min: 0 },
     preferred_foot: { type: String, enum: ["left", "right", "both"], default: null },
